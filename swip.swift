@@ -1,3 +1,14 @@
+func help() {
+	print("""
+
+	swip - better swift package manager.
+
+	USAGE:
+	   swip install [package]
+	   swip list <package>
+
+	""")
+}
 
 
 if CommandLine.arguments.count != 1 {
@@ -9,16 +20,4 @@ if CommandLine.arguments.count != 1 {
 	}
 } else {
 	help()
-}
-
-func help() {
-	print("""
-	
-	swip - better swift package manager.
-
-	USAGE:
-	   swip install [package]
-	   swip list <package>
-	
-	""")
 }
