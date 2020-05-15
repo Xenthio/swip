@@ -12,4 +12,5 @@ https://github.com/jankuca/swm
 
 ## Installation:
 Download with `git clone https://github.com/Xenthio/swip.git`
+
 Then run `make`, if you don't have make installed, install it.
